@@ -1,2 +1,13 @@
 /nbproject
 
+
+
+
+/sites/admin/data/cache/
+/sites/admin/data/log/
+/sites/admin/data/session/
+/sites/admin/tpls/compile/
+/sites/html/
+/sites/index.htm
+/sites/static/js/
+

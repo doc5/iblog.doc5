@@ -1,12 +1,12 @@
 <?php
 !defined('PATH_ADMIN') && exit('Forbidden');
-$GLOBALS ['database'] ['db_user'] = '114la_v4';
-$GLOBALS ['database'] ['db_pass'] = '114la_v4';
-$GLOBALS ['database'] ['db_name'] = '114la_v4';
+$GLOBALS ['database'] ['db_user'] = 'root';
+$GLOBALS ['database'] ['db_pass'] = '123';
+$GLOBALS ['database'] ['db_name'] = 'sites_i_doc5';
 $GLOBALS ['database'] ['db_charset'] = 'utf8';
-$GLOBALS ['database'] ['table_prefix'] = 'ylmf_';
-$GLOBALS ['database'] ['db_host'] = '192.168.1.12';
-$GLOBALS ['database'] ['manager'] = 'admin';
-$GLOBALS ['database'] ['managerpw'] = 'e10adc3949ba59abbe56e057f20f883e';
+$GLOBALS ['database'] ['table_prefix'] = 'sites_';
+$GLOBALS ['database'] ['db_host'] = '127.0.0.1';
+$GLOBALS ['database'] ['manager'] = 'happy';
+$GLOBALS ['database'] ['managerpw'] = 'c7d0a3c1b5f6d22a20171be261d1f561';
 $GLOBALS ['database'] ['staticfolder'] = '/html';
 ?>
