@@ -1,5 +1,7 @@
 /nbproject
 
+/wordpress/wp-config.php
+/wordpress/wp-content/uploads/auto_save_image/*
 
 /sites/admin/config/cfg_database.php
 /sites/admin/data/cache/
