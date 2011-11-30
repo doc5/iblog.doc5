@@ -77,7 +77,7 @@ DESCRIPTION: Two-column fixed layout with one sidebar right of content
 #secondary {
 	float: right;
 	overflow: hidden;
-	width: 220px;
+	width: 240px;
 }
 #secondary {
 	clear: right;
@@ -166,7 +166,7 @@ div.menu,
 #main,
 #wrapper {
 	margin: 0 auto;
-	width: 940px;
+	width: 1024px;
 }
 #wrapper {
 	background: #fff;
@@ -376,7 +376,7 @@ a:hover {
 	display: block;
 	float: left;
 	margin: 0 auto;
-	width: 940px;
+	width: 1024px;
 }
 #access .menu-header,
 div.menu {
@@ -593,6 +593,7 @@ div.menu li {
 .entry-summary {
 	clear: both;
 	padding: 12px 0 0 0;
+	font-size: 12px;
 }
 #content .entry-summary p:last-child {
 	margin-bottom: 12px;
