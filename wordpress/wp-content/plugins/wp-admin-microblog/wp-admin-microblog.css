@@ -1,0 +1,20 @@
+@charset "utf-8";
+/* Help container */
+div#wpam_hilfe_anzeigen {-webkit-border-radius: 5px;-khtml-border-radius: 5px;-moz-border-radius: 5px;border-radius: 5px;background-color: rgb(243,243,243);border:1px solid silver;padding:5px;margin:5px;display:none;}
+/* Help headline */
+h3.wpam_help {color:#005A46;margin-bottom:5px;}
+/* Help: Question */
+p.wpam_help_h {font-weight:bold;}
+/* Help: Answer */
+p.wpam_help_t {padding-left:10px;}
+/* Help: close button */
+p.wpam_help_c {padding-left:15px;}
+/* Message menu */
+.wpam-row-actions {visibility: hidden;padding: 2px 0 0;color:#000000;}
+.wpam-row-actions a:hover {color:#FF6600;}
+tr:hover .wpam-row-actions {visibility: visible;}
+.wpam-row-actions-visible {padding: 2px 0 0;cursor: pointer;}
+/* Media buttons */
+.wpam_media_buttons a {padding:3px;}
+/* Messages */
+.wpam_sticky {background-color: #FFE7A1;}
