@@ -2,7 +2,8 @@
 
 /wordpress/wp-config.php
 /wordpress/wp-content/uploads/auto_save_image/*
-/wordpress/wp-content/plugins/auto-save-image/simsun.ttc
+#/wordpress/wp-content/plugins/auto-save-image/simsun.ttc
+/wordpress/.htaccess
 
 /sites/admin/config/cfg_database.php
 /sites/admin/data/cache/
