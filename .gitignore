@@ -1,5 +1,7 @@
 /nbproject
 
+/wordpress/wp-config.php
+/wordpress/.htaccess
 
 /sites/admin/config/cfg_database.php
 /sites/admin/data/cache/
