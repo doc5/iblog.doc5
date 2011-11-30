@@ -19,8 +19,7 @@
     <div id="top" class="clearfix">
         <div id="weather"><script>if(top.location == self.location){document.write('<iframe width="540" height="22" frameborder="0" scrolling="no" allowtransparency="true" src="public/widget/weather/index.html"></iframe>')} </script> </div>
         <ul id="set">
-            <li class="sethome"><a onclick="Yl.setHome(this,this.href); return false;" target="_self" href="<{$URL}>">把114啦设为主页</a></li>
-            <li><a href="<{$URL}>/" target="_parent" class="active">标准版</a> | <a href="<{$URL}>/kp.html" target="_parent" onclick="Cookie.set('layout',1)">宽屏版</a></li>
+            <li class="sethome"><a onclick="Yl.setHome(this,this.href); return false;" target="_self" href="<{$URL}>">设为主页</a></li>
             <li id="skinlist"><a class="blue" title="蓝色">1</a><a class="green" title="绿色">2</a><a class="pink" title="粉色">3</a></li>
             <li class="setting"><a target="_self" href="javascript:void(0);" id="showSetting">个性设置</a></li>
         </ul>
