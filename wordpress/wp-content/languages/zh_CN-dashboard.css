@@ -1,0 +1,33 @@
+/**
+ * Dashboard General
+ *
+ * .howto remove italic property
+ * remove italic from p.help, p.description, span.description, .form-wrap p
+ * Enlarge font size of dashboard gadgets "configure" link
+ */
+.howto { font-style: normal; }
+p.help, p.description, span.description, .form-wrap p { font-style: normal; }
+.hndle a { font-size: 12px; }
+
+/**
+ * Table-related
+ *
+ * Remove italic property from tablenav
+ */
+.tablenav .displaying-num { font-style: normal; }
+
+/**
+ * update-core page
+ *
+ * Enlarge font size, set font-size: normal
+ */
+form.upgrade .hint { font-style: normal; font-size: 100%; }
+
+/**
+ * Advanced editor form
+ *
+ * More beautiful font-family for screen tagline "Just write."
+ * Enlarge font-size for fullscreen mode texts
+ */
+#wp-fullscreen-tagline { font-family: KaiTi, "楷体", sans-serif; }
+#wp-fullscreen-modes a {	font-size: 12px; }
