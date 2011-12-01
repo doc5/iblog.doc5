@@ -169,7 +169,6 @@ div.menu,
     width: 1024px;
 }
 #wrapper {
-    background: #fff;
     margin-top: 20px;
     padding: 0 20px;
 }
@@ -203,7 +202,7 @@ div.menu,
 
 /* Main global 'theme' and typographic styles */
 body {
-    background: #f1f1f1;
+/*    background: #f1f1f1;*/
 }
 body,
 input,
@@ -323,7 +322,7 @@ a:visited {
 }
 a:active,
 a:hover {
-    color: #ff4b33;
+    color: #ff4b33 !important;
 }
 
 /* Text meant only for screen readers */
@@ -337,7 +336,7 @@ a:hover {
 -------------------------------------------------------------- */
 
 #header {
-    padding: 30px 0 0 0;
+    padding: 30px 0 100px;
 }
 #site-title {
     float: left;
@@ -356,7 +355,9 @@ a:hover {
     float: right;
     font-style: italic;
     margin: 15px 0 18px 0;
-    width: 220px;
+    width: 420px;
+    color: red;
+    font-size: 16px;
 }
 
 /* This is the custom header image */
@@ -372,11 +373,13 @@ a:hover {
 -------------------------------------------------------------- */
 
 #access {
-    background: #000;
+    background: none repeat scroll 0 0 #000000;
     display: block;
     float: left;
     margin: 0 auto;
     width: 1024px;
+/*    opacity: 0.2;
+    filter:alpha(opacity=20); */
 }
 #access .menu-header,
 div.menu {
@@ -429,7 +432,7 @@ div.menu li {
 }
 #access li:hover > a,
 #access ul ul :hover > a {
-    background: #333;
+    background: #A6C9EE;
     color: #fff;
 }
 #access ul li:hover > ul {
@@ -449,6 +452,10 @@ div.menu li {
     color: #fff;
 }
 
+#masthead{
+    vertical-align: middle;
+    padding: 30px 0 0;
+}
 
 /* =Content
 -------------------------------------------------------------- */
@@ -456,7 +463,7 @@ div.menu li {
 #main {
     clear: both;
     overflow: hidden;
-    padding: 40px 0 0 0;
+    padding: 10px 0 0;
 }
 #content {
     margin-bottom: 36px;
@@ -1285,7 +1292,6 @@ code {
     font-size: 16px;
     color: #A6C9EE;
 }
-
 
 /* =Print Style
 -------------------------------------------------------------- */
