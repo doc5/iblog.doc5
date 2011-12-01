@@ -1,0 +1,47 @@
+#account-list-wrapper {
+    height: 150px;
+}
+
+#account-list-wrapper input {
+    margin-bottom: 5px;
+    width: 60px;
+}
+
+#account-list {
+    float: left;
+    height: 150px!important;
+    margin-right: 10px;
+    width: 250px;
+}
+
+.account-info-table th {
+    padding-left: 0;
+    width: 100px;
+}
+
+.account-info-table select {
+    width: 150px;
+}
+
+#td-edit,
+#tr-password {
+    display: none;
+}
+
+#wait {
+    clear: both;
+}
+
+#oauth-msg-popup {
+    display: none;
+}
+
+#oauth-iframe {
+    display: none;
+    z-index: 100;
+}
+
+#oauth-iframe iframe {
+    height: 1000px;
+    width: 100%;
+}
