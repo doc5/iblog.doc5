@@ -67,7 +67,7 @@ DESCRIPTION: Two-column fixed layout with one sidebar right of content
 
 #container {
     float: left;
-    margin: 0 -240px 0 0;
+    margin: 0 -270px 0 0;
     width: 100%;
 }
 #content {
@@ -1149,8 +1149,11 @@ h3#reply-title {
     padding: 0 0 5px 0;
 }
 .widget-title {
-    color: #222;
-    font-weight: bold;
+    
+    font-weight: bold;    
+    color: #333333;
+    font-size: 12px;
+    padding-bottom: 6px;
 }
 .widget-area a:link,
 .widget-area a:visited {
@@ -1218,6 +1221,8 @@ h3#reply-title {
     padding: 0;
 }
 #primary {
+    background: #ffebe8;
+    padding: 15px;
 }
 #secondary {
 }
