@@ -78,6 +78,8 @@ DESCRIPTION: Two-column fixed layout with one sidebar right of content
     float: right;
     overflow: hidden;
     width: 240px;
+    background: #ffebe8;
+    padding: 15px;
 }
 #secondary {
     clear: right;
@@ -1221,8 +1223,7 @@ h3#reply-title {
     padding: 0;
 }
 #primary {
-    background: #ffebe8;
-    padding: 15px;
+    
 }
 #secondary {
 }
