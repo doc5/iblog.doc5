@@ -33,3 +33,5 @@
 .kandyLoop .tabbody{border:1px solid #DDD;background:#FFF;clear:both}
 .kandyLoop .tabcont{zoom:1}
 .kandyLoop .tabcont img{vertical-align:text-bottom;background:#FFF url(loading.gif) center no-repeat}
+
+.tabbtn{cursor: pointer;}

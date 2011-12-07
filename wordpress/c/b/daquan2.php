@@ -112,28 +112,7 @@
 									</li>
 									<li>
 										<article class="wk-content clearfix">
-											<ul>
-												<li>
-													<a href="http://www.net.cn/">万网</a>
-												</li>
-												<li>
-													<a href="http://www.xinnet.com/">新网</a>
-												</li>
-												<li>
-													<a href="http://www.35.com/">35互联</a>
-												</li>
-												<li>
-													<a href="http://www.sudu.cn/index.php?rid=71732">华夏名网</a>
-												</li>
-												<li>
-													<a href="http://www.west263.com/">西部数码</a>
-												</li>
-												<li>
-													<a href="http://hengtian.org/">衡天小张</a>
-												</li>
-												<li>
-													<a href="http://www.ename.cn/">域名中国</a>
-												</li>
+											
 												<li>
 													博客主机
 												</li>
